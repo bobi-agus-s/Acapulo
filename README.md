@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Klug Klug – Panduan Edit Sendiri
 
 Jalankan dulu (di PowerShell, folder projek):
@@ -62,3 +63,6 @@ Variant `Button`: pink, yellow, blue, purple, green, orange, white, dark.
 
 ## Deploy
 `npm.cmd run build` lalu upload folder `dist/` ke Netlify, Vercel, atau GitHub Pages.
+=======
+# Acapulo
+>>>>>>> 95f7a3dcfb91a40a5c09eee0849cca08145dec98
