@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply font-body;
+  }
+  body {
+    @apply min-h-screen overflow-x-hidden bg-[#FFF4E0] text-ink transition-colors duration-500;
+    background-image: radial-gradient(#1b153022 1.5px, transparent 1.5px);
+    background-size: 22px 22px;
+  }
+  .dark body {
+    @apply bg-[#161233] text-white;
+    background-image: radial-gradient(#ffffff18 1.5px, transparent 1.5px);
+  }
+  ::selection {
+    @apply bg-brand-pink text-white;
+  }
+}
+
+@layer components {
+  /* Kartu bergaya sticker: border tebal + bayangan keras */
+  .sticker {
+    @apply rounded-3xl border-[3px] border-ink bg-white shadow-sticker-lg dark:bg-[#231d4a];
+  }
+}
